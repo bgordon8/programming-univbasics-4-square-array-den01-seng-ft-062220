@@ -1,10 +1,10 @@
 def square_array(array)
  
-    count = 0
+    
     new_array = []
-    while count < array.length do
-      new_array << array[count] ** 2
-      count += 1
+    while  array.length do |index|
+      new_array << array[index] ** 2
+    
     end
   new_array
   
